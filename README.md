@@ -10,7 +10,7 @@ This repo has a test project. Clone this repo as follows.
 
 Now compile and run the program as follows.
 
-```>
+```bash
 > cd welcome
 > dune exec bin/main.exe Alice
 ```
