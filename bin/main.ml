@@ -9,9 +9,8 @@
    > cd csci3366/welcome
    > dune exec bin/main.exe Alice
 *)
-module Code = Lib.Code
 
-let _ = Code.pfmt "Welcome %s!\n" Sys.argv.(1)
+let _ = Lib.pfmt "Welcome %s!\n" Sys.argv.(1)
 
 (* Uncomment the definition of double below, you should see a red
    dot on the left. Repair the type error by replacing the float
